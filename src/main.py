@@ -38,8 +38,7 @@ def main():
     #     if agilizador <=4:
     #         agilizador+=1
 
-                
-    
-        
+
+
 if __name__ == "__main__":
     main()

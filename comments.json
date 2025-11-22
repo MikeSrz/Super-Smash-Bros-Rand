@@ -500,31 +500,8 @@
         }
       }
     },
-    "critico": {
-      "generico": ["Golpe crítico.", "Ese ataque fue directo al punto débil."],
-      "por_personaje": {
-        "captain falcon": {
-          "Especial_Neutral_Falcon_Punch": ["Captain Falcon carga su legendario Falcon Punch.", "Un Falcon Punch crítico que hace temblar todo el escenario."]
-        },
-        "mario": {
-          "Especial_Arriba_Salto_Puno": ["Mario conecta el Super Jump Punch en el momento exacto", "¡Golpe crítico! El Super Jump Punch de Mario fue perfecto"]
-        },
-        "luigi": {
-          "Especial_Arriba_Super_Jump_Punch": ["Luigi acierta el Super Jump Punch en el sweetspot", "¡Crítico! El Super Jump Punch de Luigi al máximo poder"]
-        },
-        "ganondorf": {
-          "Especial_Neutral_Warlock_Punch": ["Ganondorf carga el Warlock Punch con oscura energía", "¡Crítico! El Warlock Punch de Ganondorf destruye al oponente"]
-        },
-        "roy": {
-          "Smash_Adelante": ["Roy conecta el sweetspot de su espada", "¡Crítico! La espada de Roy quema al oponente"]
-        },
-        "marth": {
-          "Smash_Adelante": ["Marth conecta la punta de la espada perfectamente", "¡Crítico! La punta de la espada de Marth es devastadora"]
-        },
-        "jigglypuff": {
-          "Especial_Abajo_Rest": ["Jigglypuff acierta el rest en el momento preciso", "¡Crítico! El rest de Jigglypuff manda al rival a dormir para siempre"]
-        }
-      }
+    "daño": {
+      "comportamiento_genérico" : ["se resiente tras el golpeo", ""]
     },
     "KO": {
       "generico": ["El combate se inclina.", "Un final contundente."],
