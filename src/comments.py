@@ -6,23 +6,25 @@ import random
 import comments
 import percents
 
-def comentarios(c1,c2):
-    # ESTRUCTURA DE COME NTARIO
-    # c2 = golpeado c1 = golpeador
-    # Plantilla 1. [[ "c1["nombre"]+ frases[movimiento_escogido] + mensaje generico +  c2["nombre"] + comportamiento_daño,+ c2["daño"]"] ,
-    #     "Luigi" "ha realizado un green missil" + ha alcanzado a + "Kirby" +   "Sale volando por los aires." + "70 %"
-    #      Plantilla 2. frase[movimiento_escogido] + c2["nombre"] + mensaje genérico + c2["nombre"] +  comportamiento_daño + c2["daño"],
-    #       "Bola de fuego de " +  "Mario" + "Ha impactado a" + "Kirby" + ", se retuerce de dolor" + "70%"
-    #
-    #   necesito => movimiento , descripción_genérica + comportamiento daño {generico o personalizado}
+def describirAtaque(categoriaAtaque, intensidad, coments):
+    return  random.choice(coments["ataque"][categoriaAtaque].get(intensidad))
 
+def describirDaño(categoriaAtaque, intensidad, coments):
+    return random.choice(coments["recibe"][categoriaAtaque].get(intensidad))
 
-    base = Path(__file__).resolve().parent
-    ruta = base / ".." / ("moveset_categories.json")
-    with ruta.open("r",encoding="utf-8") as file:
-        comments = json.load(file)
-
-    golpeador = percents.quienPega(c1,c2)
+def narrar(c1,c2,comentarios, categorias):
+    #Obteniendo Strings de narración de combate.
+    golpeador = percents.quienPega(c1, c2)
     golpeado = c1 if golpeador == c2 else c2
+    ataque = golpeador.get("ultimoAtaque")
+    categoriaGolpe = categorias["characters"][golpeador.get("nombre")]["Move_Set"].get(ataque)
+    intensidad = categorias["characters"][golpeador.get("nombre")]["Move_Set"][ataque].get("Intensidad")
+
+    descripcionAtaque = describirAtaque(categoriaGolpe, intensidad, comentarios)
+    descripcionDaño = describirDaño(golpeador.get("Nombre"), categoriaGolpe, intensidad)
+
+    #Me falta depurar y añadir más formas de estructurar las frases posibles(Ya continuaré...)
+    print(f"{golpeador.get("Nombre")} {descripcionAtaque} {golpeado.get("Nombre")} {descripcionDaño}.")
+
 if __name__ == "__main__":
-    comentarios()
+    narrar()

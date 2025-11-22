@@ -8,7 +8,15 @@ import percents
 def main():
     base = Path(__file__).resolve().parent
     ruta = base / ".." / "characters.json"
+    rutaComentarios = base / ".." / "comments.py"
+    rutaCategorias = base / ".." / "categorias.json"
     os.system("cls")
+
+    # Cargamos en diccionarios detalles de movimientos y los comentarios.
+    with rutaCategorias.open("r",encoding="utf-8") as categories_json, rutaComentarios.open("r",encoding="utf-8") as comments_json :
+        datosCategorias = json.load(categories_json)
+        datosComentarios = json.load(comments_json)
+
     print("Bienvenido a Super Smash Bros Rand, el simulador de peleas de la version Super Smash Bros Melee con sus personajes inciales.")
     print("Personajes jugables:")
     with ruta.open("r",encoding="utf-8") as file:
@@ -20,6 +28,7 @@ def main():
         counter+=1
     j1 = percents.preguntarLuchador(personajes,datos,1)
     j2 = percents.preguntarLuchador(personajes,datos,2)
+
         
     agilizador = 0 #Mi idea es que las primeras 4 interacciones haya algunas funciones como la de "seMuere" que no compruebe ya que es una perdida de eficiencia
     print("QUE EMPIECE EL COMBATE EN:")
