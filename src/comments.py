@@ -7,8 +7,6 @@ import comments
 import percents
 
 def comentarios(c1,c2):
-    golpeador = percents.quienPega(c1,c2)
-    golpeado = c1 if golpeador == c2 else c2
     # ESTRUCTURA DE COME NTARIO
     # c2 = golpeado c1 = golpeador
     # Plantilla 1. [[ "c1["nombre"]+ frases[movimiento_escogido] + mensaje generico +  c2["nombre"] + comportamiento_daño,+ c2["daño"]"] ,
@@ -17,10 +15,14 @@ def comentarios(c1,c2):
     #       "Bola de fuego de " +  "Mario" + "Ha impactado a" + "Kirby" + ", se retuerce de dolor" + "70%"
     #
     #   necesito => movimiento , descripción_genérica + comportamiento daño {generico o personalizado}
+
+
     base = Path(__file__).resolve().parent
-    ruta = base / ".." / "comments.json"
+    ruta = base / ".." / ("moveset_categories.json")
     with ruta.open("r",encoding="utf-8") as file:
         comments = json.load(file)
 
+    golpeador = percents.quienPega(c1,c2)
+    golpeado = c1 if golpeador == c2 else c2
 if __name__ == "__main__":
     comentarios()

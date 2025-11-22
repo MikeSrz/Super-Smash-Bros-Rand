@@ -1,331 +1,76 @@
 {
-  "Characters": {
-    "mario": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Fireball": { "category": "proyectil" },
-        "Especial_Lateral_Capa": { "category": "fisico" },
-        "Especial_Arriba_Salto_Puno": { "category": "fisico" },
-        "Especial_Abajo_Tornado": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
+  "ataque": {
+    "fisico": {
+      "baja": [
+        "da un ligero golpe",
+        "golpea a su rival"
+      ],
+      "media": [
+        "lanza un golpe certero hacia el enemigo",
+        "golpea con fuerza"
+      ],
+      "alta": [
+        "desata un golpe brutal que hace despegar",
+        "impacta con fuerza y manda por los aires"
+      ],
+      "aerea": [
+        "salta y golpea desde el aire con determinación.",
+        "viene descendiendo y da un fuerte golpe aéreo."
+      ]
     },
-
-    "luigi": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Fireball": { "category": "proyectil" },
-        "Especial_Lateral_Green_Missile": { "category": "fisico" },
-        "Especial_Arriba_Super_Jump_Punch": { "category": "fisico" },
-        "Especial_Abajo_Ciclon": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
+    "proyectil": {
+      "baja": [
+        "lanza un proyectil",
+        "spamea ataques a distancia"
+      ],
+      "media": [
+        "lanza un proyectil rápido hacia su rival",
+        "dispara con precisión, buscando acertar el golpe"
+      ],
+      "alta": [
+        "dispara un proyectil potente, directo al enemigo",
+        "lanza un ataque a distancia con fuerza devastadora"
+      ],
+      "aerea": [
+        "desde el aire lanza un proyectil veloz",
+        "ataca a distancia mientras desciende con fuerza"
+      ]
     },
-
-    "peach": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Nabo": { "category": "proyectil" },
-        "Especial_Lateral_Corazon": { "category": "magico" },
-        "Especial_Arriba_Paraguas": { "category": "fisico" },
-        "Especial_Abajo_Peach_Bomber": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "bowser": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Fuego": { "category": "proyectil" },
-        "Especial_Lateral_Cabezazo": { "category": "fisico" },
-        "Especial_Arriba_Salto_Shell": { "category": "fisico" },
-        "Especial_Abajo_Martillazo": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "yoshi": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Huevo": { "category": "proyectil" },
-        "Especial_Lateral_Investida": { "category": "fisico" },
-        "Especial_Arriba_Lanzamiento_Huevo": { "category": "fisico" },
-        "Especial_Abajo_Culozo": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "donkey kong": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Puno_Cargado": { "category": "fisico" },
-        "Especial_Lateral_Coco_Launch": { "category": "proyectil" },
-        "Especial_Arriba_Tornado_Brazo": { "category": "fisico" },
-        "Especial_Abajo_Estampida": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "captain falcon": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Falcon_Punch": { "category": "fisico" },
-        "Especial_Lateral_Raptor_Boost": { "category": "fisico" },
-        "Especial_Arriba_Falcon_Dive": { "category": "fisico" },
-        "Especial_Abajo_Desliz_Codo": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "link": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Flecha": { "category": "proyectil" },
-        "Especial_Lateral_Bumeran": { "category": "proyectil" },
-        "Especial_Arriba_Giro_Espada": { "category": "fisico" },
-        "Especial_Abajo_Bomba": { "category": "proyectil" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "zelda": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "magico" },
-        "Tilt_Adelante": { "category": "magico" },
-        "Tilt_Arriba": { "category": "magico" },
-        "Tilt_Abajo": { "category": "magico" },
-        "Smash_Adelante": { "category": "magico" },
-        "Smash_Arriba": { "category": "magico" },
-        "Smash_Abajo": { "category": "magico" },
-        "Aereo_Neutral": { "category": "magico" },
-        "Aereo_Adelante": { "category": "magico" },
-        "Aereo_Atras": { "category": "magico" },
-        "Aereo_Arriba": { "category": "magico" },
-        "Aereo_Abajo": { "category": "magico" },
-        "Especial_Neutral_Din": { "category": "magico" },
-        "Especial_Lateral_Patada_Magica": { "category": "magico" },
-        "Especial_Arriba_Teletransporte": { "category": "magico" },
-        "Agarre_Golpe": { "category": "magico" }
-      }
-    },
-
-    "sheik": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Aguja": { "category": "proyectil" },
-        "Especial_Lateral_Cadena": { "category": "fisico" },
-        "Especial_Arriba_Teletransporte": { "category": "magico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "samus": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Misil_Cargado": { "category": "proyectil" },
-        "Especial_Lateral_Misil": { "category": "proyectil" },
-        "Especial_Arriba_Screw_Attack": { "category": "fisico" },
-        "Especial_Abajo_Bomba_Morfosfera": { "category": "proyectil" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "ice climbers": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Hielo": { "category": "proyectil" },
-        "Especial_Lateral_Cuerda": { "category": "fisico" },
-        "Especial_Arriba_Salto_Doble": { "category": "fisico" },
-        "Especial_Abajo_Martillo_Giro": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "kirby": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Inhalar": { "category": "magico" },
-        "Especial_Lateral_Giro": { "category": "fisico" },
-        "Especial_Arriba_Salto_Martillo": { "category": "fisico" },
-        "Especial_Abajo_Piedra": { "category": "fisico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "fox": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Laser": { "category": "proyectil" },
-        "Especial_Lateral_Fox_Illusion": { "category": "fisico" },
-        "Especial_Arriba_Fire_Fox": { "category": "fisico" },
-        "Especial_Abajo_Reflector": { "category": "magico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
-    },
-
-    "pikachu": {
-      "Move_Set": {
-        "Golpe_Debil": { "category": "fisico" },
-        "Tilt_Adelante": { "category": "fisico" },
-        "Tilt_Arriba": { "category": "fisico" },
-        "Tilt_Abajo": { "category": "fisico" },
-        "Smash_Adelante": { "category": "fisico" },
-        "Smash_Arriba": { "category": "fisico" },
-        "Smash_Abajo": { "category": "fisico" },
-        "Aereo_Neutral": { "category": "fisico" },
-        "Aereo_Adelante": { "category": "fisico" },
-        "Aereo_Atras": { "category": "fisico" },
-        "Aereo_Arriba": { "category": "fisico" },
-        "Aereo_Abajo": { "category": "fisico" },
-        "Especial_Neutral_Thunder_Jolt": { "category": "proyectil" },
-        "Especial_Lateral_Skull_Bash": { "category": "fisico" },
-        "Especial_Arriba_Quick_Attack": { "category": "fisico" },
-        "Especial_Abajo_Thunder": { "category": "magico" },
-        "Agarre_Golpe": { "category": "fisico" }
-      }
+    "magico": {
+      "baja": [
+        "hace un hechizo débil que roza al enemigo",
+        "lanza magia ligera, casi sin efecto"
+      ],
+      "media": [
+        "conjura un hechizo que impacta con fuerza moderada",
+        "lanza magia precisa, buscando afectar al rival"
+      ],
+      "alta": [
+        "desata un hechizo poderoso que sacude al enemigo",
+        "invoca magia intensa, causando gran impacto"
+      ],
+      "aerea": [
+        "desde el aire realiza un hechizo descendente",
+        "lanza un ataque mágico mientras desciende con fuerza"
+      ]
     }
+  },
+  "recibe": {
+    "baja": [
+      "El golpe apenas lo afecta, se mantiene firme",
+      "Recibe el impacto sin problemas"
+    ],
+    "media": [
+      "se tambalea ligeramente por el golpe",
+      "el ataque le hace retroceder un poco"
+    ],
+    "alta": [
+      "¡Impacto brutal! Va volando por la fuerza del golpe",
+      "cae al suelo por la potencia del ataque"
+    ],
+    "aerea": [
+      "recibe un golpe desde el aire, cayendo con fuerza.",
+      "el ataque aéreo lo sacude mientras desciende."
+    ]
   }
 }

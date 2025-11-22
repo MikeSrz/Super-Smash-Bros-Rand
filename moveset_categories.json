@@ -1,0 +1,327 @@
+{
+  "Characters": {
+    "mario": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Neutral_Fireball": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Capa": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Salto_Puno": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Abajo_Tornado": { "Categoria": "fisico", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "luigi": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Fireball": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Green_Missile": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Super_Jump_Punch": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Abajo_Ciclon": { "Categoria": "fisico", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "peach": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Nabo": { "Categoria": "proyectil", "Intensidad": "media" },
+        "Especial_Lateral_Corazon": { "Categoria": "magico", "Intensidad": "media" },
+        "Especial_Arriba_Paraguas": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Peach_Bomber": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "bowser": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Fuego": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Cabezazo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Salto_Shell": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Martillazo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "media" }
+      }
+    },
+
+    "yoshi": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Huevo": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Investida": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Lanzamiento_Huevo": { "Categoria": "proyectil", "Intensidad": "media" },
+        "Especial_Abajo_Culozo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "media" }
+      }
+    },    "donkey kong": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Puno_Cargado": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Lateral_Coco_Launch": { "Categoria": "proyectil", "Intensidad": "media" },
+        "Especial_Arriba_Tornado_Brazo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Estampida": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "media" }
+      }
+    },
+    "captain falcon": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Falcon_Punch": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Lateral_Raptor_Boost": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Falcon_Dive": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Desliz_Codo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+    "link": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Flecha": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Bumeran": { "Categoria": "proyectil", "Intensidad": "media" },
+        "Especial_Arriba_Giro_Espada": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Abajo_Bomba": { "Categoria": "proyectil", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "zelda": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Din": { "Categoria": "magico", "Intensidad": "media" },
+        "Especial_Lateral_Patada_Magica": { "Categoria": "magico", "Intensidad": "media" },
+        "Especial_Arriba_Teletransporte": { "Categoria": "magico", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "sheik": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Aguja": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Cadena": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Teletransporte": { "Categoria": "magico", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "samus": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Misil_Cargado": { "Categoria": "proyectil", "Intensidad": "alta" },
+        "Especial_Lateral_Misil": { "Categoria": "proyectil", "Intensidad": "media" },
+        "Especial_Arriba_Screw_Attack": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Bomba_Morfosfera": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "media" }
+      }
+    },
+
+    "ice climbers": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Neutral_Hielo": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Cuerda": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Especial_Arriba_Salto_Doble": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Martillo_Giro": { "Categoria": "fisico", "Intensidad": "media" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "kirby": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Inhalar": { "Categoria": "magico", "Intensidad": "baja" },
+        "Especial_Lateral_Giro": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Salto_Martillo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Abajo_Piedra": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "fox": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "media" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Neutral_Laser": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Fox_Illusion": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Fire_Fox": { "Categoria": "magico", "Intensidad": "media" },
+        "Especial_Abajo_Reflector": { "Categoria": "magico", "Intensidad": "baja" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    },
+
+    "pikachu": {
+      "Move_Set": {
+        "Golpe_Debil": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Adelante": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Tilt_Abajo": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Smash_Adelante": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Arriba": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Smash_Abajo": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Neutral": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Adelante": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Atras": { "Categoria": "fisico", "Intensidad": "media" },
+        "Aereo_Arriba": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Aereo_Abajo": { "Categoria": "fisico", "Intensidad": "alta" },
+        "Especial_Neutral_Thunder_Jolt": { "Categoria": "proyectil", "Intensidad": "baja" },
+        "Especial_Lateral_Skull_Bash": { "Categoria": "fisico", "Intensidad": "media" },
+        "Especial_Arriba_Quick_Attack": { "Categoria": "fisico", "Intensidad": "baja" },
+        "Especial_Abajo_Thunder": { "Categoria": "magico", "Intensidad": "alta" },
+        "Agarre_Golpe": { "Categoria": "fisico", "Intensidad": "baja" }
+      }
+    }
+  }
+}
