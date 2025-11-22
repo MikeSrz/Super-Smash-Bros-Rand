@@ -1,8 +1,24 @@
 import json
-import os
 from pathlib import Path
 import random
 import comments
+
+def preguntarLuchador(personajes, datos, num):
+    base = Path(__file__).resolve().parent
+    ruta = base / ".." / "characters.json"
+    jugador = {
+        "Vidas" : 3,
+        "Porcentaje" : 0
+    }
+    with ruta.open("r",encoding="utf-8") as file:    
+        while True:
+            c = input(f"Escribe el nombre del jugador {num}: ").lower()
+            if c in personajes:
+                jugador["Nombre"] = c
+                jugador.update(datos["Characters"][c])
+                return jugador
+            print("Escribe bien el nombre gilipollas, dale a enter y ponlo bien anda")
+            input("") 
 
 def porcentajeAleatorio():
     x = random.randint(0,100)
@@ -18,7 +34,7 @@ def quienPega(c1,c2,cc=None):
         return c1
     if x == 2:
         return c2
-def cuantoDañoHace(personaje,porcentaje=None):
+def cuantoDañoHace(personaje):
     #Hay que cambiar esta funcion para que en el MAIN cree la lista moveSet y asi no tenga que abrir el archivo todas las veces
     # El parametro de porcentaje lo vamos a usar cuando metamos lo del rage    
     base = Path(__file__).resolve().parent
@@ -29,12 +45,8 @@ def cuantoDañoHace(personaje,porcentaje=None):
         movimiento = random.choice(moveSet)
         dañoDelMovimiento = datos["Characters"][personaje]["Move_Set"].get(movimiento)
     return dañoDelMovimiento
-def seMuere(personaje, porcentaje):
-    base = Path(__file__).resolve().parent
-    ruta = base / ".." / "characters.json"
-    with ruta.open("r",encoding="utf-8") as file:
-        datos = json.load(file)
-        kp = datos["Characters"][personaje]["KO_percent"].values()
+def seMuere(personaje):
+    
     if porcentaje>=kp:
         match porcentaje:
             case x if 100 <= x <= 103:
