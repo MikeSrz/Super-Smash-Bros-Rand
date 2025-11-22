@@ -2,16 +2,16 @@
   "ataque": {
     "fisico": {
       "baja": [
-        "da un ligero golpe",
-        "golpea a su rival"
+        "da un ligero {golpe}",
+        "lanza un {golpe} a su rival"
       ],
       "media": [
-        "lanza un golpe certero hacia el enemigo",
-        "golpea con fuerza"
+        "lanza un {golpe} certero hacia el enemigo",
+        "con {golpe} golpea con fuerza"
       ],
       "alta": [
-        "desata un golpe brutal que hace despegar",
-        "impacta con fuerza y manda por los aires"
+        "desata un {golpe} brutal",
+        "impacta con fuerza"
       ],
       "aerea": [
         "salta y golpea desde el aire con determinación.",
@@ -20,15 +20,15 @@
     },
     "proyectil": {
       "baja": [
-        "lanza un proyectil",
-        "spamea ataques a distancia"
+        "lanza un {proyectil}",
+        "spamea {proyectil} a distancia"
       ],
       "media": [
-        "lanza un proyectil rápido hacia su rival",
+        "lanza un {proyectil} rápido hacia su rival",
         "dispara con precisión, buscando acertar el golpe"
       ],
       "alta": [
-        "dispara un proyectil potente, directo al enemigo",
+        "dispara un {proyectil} potente, directo al enemigo",
         "lanza un ataque a distancia con fuerza devastadora"
       ],
       "aerea": [
@@ -50,24 +50,26 @@
         "invoca {hechizo} intensa, causando gran impacto"
       ],
       "aerea": [
-        "desde el aire realiza un hechizo descendente",
+        "desde el aire realiza un {hechizo} descendente",
         "lanza un {hechizo} mientras desciende con fuerza"
       ]
     }
   },
   "recibe": {
+    "limite" : ["está al límite", "contra las cuerdas", "le va a costar reponerse", "jugando con fuego", "a tomar por culo"],
+    "KO" : ["Sale volando a china", "sale hasta el infinito y más allá","menuda humillación","hasta la próxima"],
     "fisico": {
       "baja": [
-        "El golpe apenas lo afecta, se mantiene firme",
-        "Recibe el impacto sin problemas"
+        "el golpe apenas lo afecta, se mantiene firme",
+        "recibe el impacto sin problemas"
       ],
       "media": [
-        "Se tambalea ligeramente por el golpe",
-        "El ataque le hace retroceder un poco"
+        "se tambalea ligeramente por el {golpe}",
+        "el ataque le hace retroceder un poco"
       ],
       "alta": [
         "¡Impacto brutal! Va volando por la fuerza del golpe",
-        "Cae al suelo por la potencia del ataque"
+        "sale despedido por la fuerza del ataque"
       ]
     },
     "proyectil": {
@@ -86,30 +88,30 @@
     },
     "magico": {
       "baja": [
-        "El hechizo apenas le hace cosquillas",
-        "Recibe el ataque mágico sin mucho efecto"
+        "el hechizo apenas le hace cosquillas",
+        "recibe el ataque mágico sin mucho efecto"
       ],
       "media": [
-        "El hechizo lo afecta, se tambalea",
-        "Impacto mágico que le hace retroceder"
+        "el {hechizo} lo afecta de lleno",
+        "impacto mágico que le hace retroceder"
       ],
       "alta": [
-        "¡Magia poderosa! Se ve afectado gravemente",
-        "Recibe un hechizo devastador y cae al suelo"
+        " se ve afectado gravemente",
+        "recibe un hechizo devastador y cae al suelo"
       ]
     },
     "grappling": {
       "baja": [
-        "El agarre apenas lo detiene",
-        "Recibe un intento de agarre sin problemas"
+        "el agarre apenas lo detiene",
+        "recibe un intento de agarre sin problemas"
       ],
       "media": [
-        "El agarre lo hace perder un poco de control",
+        "el agarre lo hace perder un poco de control",
         "Se tambalea mientras lo sostiene el rival"
       ],
       "alta": [
-        "¡Agarre brutal! Lo lanza al suelo con fuerza",
-        "Recibe un grapple potente y cae pesadamente"
+        "un agarra brutal",
+        "recibe un grapple potente de los que hacen daño"
       ]
     }
   }
