@@ -37,5 +37,5 @@ if __name__ == "__main__":
         datosCategorias = json.load(categories_json)
         comentarios = json.load(comments_json)
 
-    print(datosCategorias["Characters"]["mario"]["Move_Set"]["Especial_Arriba_Salto_Puno"].get("Intensidad"))
-    print(f"Mario {random.choice(comentarios["ataque"]["fisico"]["aerea"])}")
+    print(datosCategorias["Characters"]["mario"]["Move_Set"]["Especial_Neutral_Fireball"].get("Intensidad"))
+    print(f"Mario {random.choice(comentarios["ataque"]["proyectil"]["baja"]).replace("{proyectil}", "bolas de fuego")}")

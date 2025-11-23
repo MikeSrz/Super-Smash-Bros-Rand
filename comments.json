@@ -20,7 +20,7 @@
     },
     "proyectil": {
       "baja": [
-        "lanza un {proyectil}",
+        "lanza {proyectil}",
         "spamea {proyectil} a distancia"
       ],
       "media": [
