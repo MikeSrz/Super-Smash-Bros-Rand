@@ -81,17 +81,16 @@ def main():
             
         # Bucle principal del combate
         while j1.esta_vivo() and j2.esta_vivo():
-
-            # Mostrar estado actual
-            await ctx.send(narrador.mostrar_estado(j1, j2))
-            await ctx.send("=" * 80) 
+            
             atacante, defensor = quien_pega(j1, j2)
             # Ejecutar turno
             resultado = ejecutar_turno(atacante, defensor)
+            # Mostrar estado actual
+            await ctx.send(narrador.mostrar_estado(j1, j2))
+            await ctx.send("=" * 80) 
             # Narrar el turno
             narracion = narrador.narrar_turno(resultado)
             await ctx.send(narracion)
-
             await asyncio.sleep(6)
             # Purgar mensajes intermedios para mantener el canal limpio
             await limpiar_canal(ctx)
@@ -113,7 +112,7 @@ def main():
         mencionPerdedor = j1_usuario.mention if perdedor is j1 else j2_usuario.mention
         await ctx.send(f"🏆 {mencionGanador} ¡{ganador.nombreJugador} ES EL GANADOR! 🏆")
         await ctx.send(f"{ganador.nombre.capitalize()} ha sobrevivido con {ganador.vidas} {'vida' if ganador.vidas == 1 else 'vidas'} restante{'s' if ganador.vidas != 1 else ''} a un {ganador.porcentaje:.1f}%")
-        await ctx.send(f"{mencio} JAJAJAJAJA chupala")
+        await ctx.send(f"{mencionPerdedor} JAJAJAJAJA chupala")
     
     @bot.event
     async def on_ready():
