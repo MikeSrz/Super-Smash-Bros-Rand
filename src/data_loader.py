@@ -1,6 +1,4 @@
-"""
-Carga los datos JSON y los convierte en objetos del modelo
-"""
+
 import json
 from pathlib import Path
 from typing import Dict, List
@@ -58,12 +56,12 @@ class DataLoader:
         """Retorna una lista con los nombres de todos los personajes"""
         return list(self.personajes.keys())
 
-    def crear_jugador(self, nombre_personaje: str, numero_jugador: int) -> Player:
+    def crear_jugador(self, nombre_personaje: str, numero_jugador: int, nombre_del_jugador: str) -> Player:
         """Crea un jugador con el personaje especificado"""
         personaje = self.obtener_personaje(nombre_personaje)
         if personaje is None:
             raise ValueError(f"Personaje '{nombre_personaje}' no encontrado")
-        return Player(personaje, numero_jugador)
+        return Player(personaje, numero_jugador, nombre_del_jugador)
 
     def obtener_comentarios(self) -> dict:
         """Retorna los comentarios cargados"""

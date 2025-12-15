@@ -1,31 +1,8 @@
-"""
-Lógica del juego refactorizada usando clases
-"""
+import discord
+from discord.ext import commands
 import random
 from models import Player
 from data_loader import DataLoader
-
-
-def preguntarLuchador(data_loader: DataLoader, num: int) -> Player:
-    """
-    Solicita al usuario que seleccione un personaje y crea un jugador
-
-    Args:
-        data_loader: Instancia de DataLoader con los datos cargados
-        num: Número del jugador (1 o 2)
-
-    Returns:
-        Player: Objeto jugador con el personaje seleccionado
-    """
-    personajes = data_loader.listar_personajes()
-
-    while True:
-        c = input(f"Escribe el nombre del jugador {num}: ").lower()
-        if c in personajes:
-            return data_loader.crear_jugador(c, num)
-        print("Escribe bien el nombre gilipollas, dale a enter y ponlo bien anda")
-        input("")
-
 
 def quien_pega(p1: Player, p2: Player) -> tuple[Player, Player]:
     """
@@ -38,6 +15,7 @@ def quien_pega(p1: Player, p2: Player) -> tuple[Player, Player]:
     Returns:
         tuple: (atacante, defensor)
     """
+    
     if random.randint(1, 2) == 1:
         return p1, p2
     else:
@@ -55,6 +33,11 @@ def ejecutar_turno(atacante: Player, defensor: Player) -> dict:
     Returns:
         dict: Información del turno (movimiento, daño, ko)
     """
+    
+    # Incrementar combo del atacante y resetear el del defensor
+    atacante.comboCounter(True)
+    defensor.comboCounter(False)
+    
     # El atacante realiza un ataque
     movimiento = atacante.atacar()
 
@@ -63,7 +46,7 @@ def ejecutar_turno(atacante: Player, defensor: Player) -> dict:
 
     # Verificar si hay KO
     ko = False
-    if defensor.intentar_ko():
+    if defensor.intentar_ko() or atacante.cc == 3:
         defensor.perder_vida()
         ko = True
 

@@ -42,12 +42,14 @@ class Character:
 class Player:
     """Representa un jugador en el combate"""
 
-    def __init__(self, personaje: Character, numero_jugador: int, vidas: int = 3):
+    def __init__(self, personaje: Character, numero_jugador: int, nombreJugador : str ,vidas: int = 2):
         self.personaje = personaje
         self.numero_jugador = numero_jugador
         self.vidas = vidas
         self.porcentaje = 0
         self.ultimo_ataque: Move = None
+        self.cc = 0
+        self.nombreJugador = nombreJugador
 
     @property
     def nombre(self) -> str:
@@ -68,6 +70,18 @@ class Player:
         self.vidas -= 1
         self.porcentaje = 0
 
+    def comboCounter(self, pega: bool):
+        """
+        Actualiza el contador de combo
+        
+        Args:
+            pega: True si el jugador pegó en este turno, False si no
+        """
+        if pega:
+            self.cc += 1
+        else:
+            self.cc = 0
+            
     def esta_vivo(self) -> bool:
         """Verifica si el jugador aún tiene vidas"""
         return self.vidas > 0
